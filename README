@@ -6,4 +6,8 @@ requirement
 
 the program will seek vm automatically and make connection. Error will be given if connection failed.
 
-the program will output the number of domains on the connection
+the program will output the number of domains on the connection and list the domain ID .
+
+the program will save and resume the first available domain.
+
+time stamp will record the time cost of save and resume respectivelly.
