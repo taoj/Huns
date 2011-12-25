@@ -1,1 +1,9 @@
 This is the readme for virtual_machine
+requirement
+1. VM hyperviser is already installed
+2. libvirt.h is available
+3. at least one domain is available
+
+the program will seek vm automatically and make connection. Error will be given if connection failed.
+
+the program will output the number of domains on the connection
