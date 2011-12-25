@@ -44,7 +44,7 @@ int main()
 
 //get the handle of the first domain
 
-	domain_handle=virDomainLookupByID(conn,domainID[1]);
+	domain_handle=virDomainLookupByID(conn,domainID[0]);
 	
 	if(domain_handle==NULL)
 	printf("ID error \n");
