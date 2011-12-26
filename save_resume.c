@@ -65,7 +65,7 @@ int main()
 	timeofsave=1000000*(save_end.tv_sec-save_start.tv_sec)+save_end.tv_usec-save_start.tv_usec;
 	timeofresume=1000000*(resume_end.tv_sec-resume_start.tv_sec)+resume_end.tv_usec-resume_start.tv_usec;
 
-	printf("save time is &f \nresume time is %f\n",timeofsave,timeofresume);
+	printf("save time is %f \nresume time is %f\n",timeofsave,timeofresume);
 
 	
 
